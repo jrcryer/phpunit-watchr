@@ -1,7 +1,7 @@
 phpunit-watchr
 ==============
 
-A [NodeJS](http://nodejs.org) to watch a directory and run [PHPUnit](http://www.phpunit.de/) tests.
+A [NodeJS](http://nodejs.org) app to watch a directory and run [PHPUnit](http://www.phpunit.de/) tests.
 
 Installation
 ------------
