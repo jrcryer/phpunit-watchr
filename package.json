@@ -31,7 +31,7 @@
         "watchr": "2.3.1"
     },
     "devDependencies": {
-        "mocha": "0.3.x"
+        "mocha": "1.7.0"
     },
     "bin":{
         "phpunit-watchr":"lib/phpunit-watchr.js"
