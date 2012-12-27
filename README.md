@@ -3,6 +3,8 @@ phpunit-watchr
 
 A [NodeJS](http://nodejs.org) app to watch directories and run [PHPUnit](http://www.phpunit.de/) tests.
 
+[![Build Status](https://travis-ci.org/jrcryer/phpunit-watchr.png)](https://travis-ci.org/jrcryer/phpunit-watchr)
+
 Installation
 ------------
 The following command will install the application. Use `-g` to install as a global binary.
