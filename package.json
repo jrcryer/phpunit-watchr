@@ -1,7 +1,7 @@
 {
     "name": "phpunit-watchr",
     "description": "A simple script to watch a directories and run phpunit tests",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "homepage": "https://github.com/jrcryer/phpunit-watchr",
     "author": {
         "name": "James Cryer",
@@ -31,12 +31,13 @@
         "watchr": "2.3.1"
     },
     "devDependencies": {
+        "sinon": "1.5.2",
         "mocha": "1.7.0"
     },
     "bin":{
         "phpunit-watchr":"lib/phpunit-watchr.js"
     },
     "scripts": {
-        "test": "mocha test/ -u tdd"
+        "test": "mocha test/ -u bdd -R Spec"
     }
 }
