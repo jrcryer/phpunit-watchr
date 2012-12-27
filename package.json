@@ -1,0 +1,36 @@
+{
+    "name": "phpunit-watchr",
+    "description": "A simple script to watch a direction and run phpunit tests",
+    "version": "0.1.0",
+    "homepage": "https://github.com/jrcryer/phpunit-watchr",
+    "author": {
+        "name": "James Cryer",
+        "email": "chat@jamescryer.com",
+        "url": "http://www.jamescryer.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jrcryer/phpunit-watchr.git"
+    },
+    "bugs":{
+        "url":"https://github.com/jrcryer/phpunit-watchr/issues"
+    },
+    "keywords": [
+        "cli",
+        "php",
+        "tdd",
+        "phpunit"
+    ],
+    "analyze": false,
+    "license": "MIT",
+    "main":"lib/phpunit-watchr.js",
+    "engines":{
+        "node":">= 0.8.0"
+    },
+    "dependencies": {
+        "watchr": "2.3.1"
+    },
+    "bin":{
+        "phpunit-watchr":"lib/phpunit-watchr.js"
+    }
+}
