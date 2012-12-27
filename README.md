@@ -43,5 +43,5 @@ Future Features
 
 Licence
 -------
-This project is licensed under [MIT](https://github.com/azoff/node-osx-notifier/blob/master/LICENSE-MIT)
+This project is licensed under [MIT](https://github.com/jrcryer/phpunit-watchr/blob/master/LICENSE-MIT)
 license.
