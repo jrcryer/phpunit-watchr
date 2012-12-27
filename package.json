@@ -1,7 +1,7 @@
 {
     "name": "phpunit-watchr",
-    "description": "A simple script to watch a direction and run phpunit tests",
-    "version": "0.1.0",
+    "description": "A simple script to watch a directories and run phpunit tests",
+    "version": "0.2.0",
     "homepage": "https://github.com/jrcryer/phpunit-watchr",
     "author": {
         "name": "James Cryer",
