@@ -33,11 +33,11 @@
         <section id="main_content">
           <h1>phpunit-watchr</h1>
 
-<p>A <a href="http://nodejs.org">NodeJS</a> to watch a directory and run <a href="http://www.phpunit.de/">PHPUnit</a> tests.</p>
+<p>A <a href="http://nodejs.org">NodeJS</a> app to watch directories and run <a href="http://www.phpunit.de/">PHPUnit</a> tests.</p>
 
 <h2>Installation</h2>
 
-<p>The following command will install the application. Use <code>-g</code> to install the server as a global binary.</p>
+<p>The following command will install the application. Use <code>-g</code> to install as a global binary.</p>
 
 <div class="highlight"><pre><span class="o">[</span>sudo<span class="o">]</span> npm install <span class="o">[</span>-g<span class="o">]</span> phpunit-watchr
 </pre></div>
@@ -58,6 +58,11 @@
 <div class="highlight"><pre>phpunit-watchr <span class="s1">'./php/tests'</span>
 </pre></div>
 
+<p>Setting paths:</p>
+
+<div class="highlight"><pre>phpunit-watchr ./php/tests,./tests
+</pre></div>
+
 <p>Setting <a href="http://www.phpunit.de/manual/current/en/appendixes.configuration.html">PHPUnit configuration</a>:</p>
 
 <div class="highlight"><pre>phpunit-watchr <span class="s1">'./php/tests'</span> <span class="s1">'--strict --colors'</span>
@@ -66,7 +71,6 @@
 <h2>Future Features </h2>
 
 <ul>
-<li>Watching multiple paths</li>
 <li>Notification integration</li>
 </ul><h2>Licence</h2>
 
