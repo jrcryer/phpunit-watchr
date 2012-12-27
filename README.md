@@ -1,11 +1,11 @@
 phpunit-watchr
 ==============
 
-A [NodeJS](http://nodejs.org) app to watch a directory and run [PHPUnit](http://www.phpunit.de/) tests.
+A [NodeJS](http://nodejs.org) app to watch directories and run [PHPUnit](http://www.phpunit.de/) tests.
 
 Installation
 ------------
-The following command will install the application. Use `-g` to install the server as a global binary.
+The following command will install the application. Use `-g` to install as a global binary.
 
 ```sh
 [sudo] npm install [-g] phpunit-watchr
@@ -29,6 +29,12 @@ Setting path:
 phpunit-watchr './php/tests'
 ```
 
+Setting paths:
+
+```sh
+phpunit-watchr ./php/tests,./tests
+```
+
 Setting [PHPUnit configuration](http://www.phpunit.de/manual/current/en/appendixes.configuration.html):
 
 ```sh
@@ -38,7 +44,6 @@ phpunit-watchr './php/tests' '--strict --colors'
 Future Features 
 ---------------
 
-* Watching multiple paths
 * Notification integration
 
 Licence
