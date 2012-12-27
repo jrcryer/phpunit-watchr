@@ -30,7 +30,13 @@
     "dependencies": {
         "watchr": "2.3.1"
     },
+    "devDependencies": {
+        "mocha": "0.3.x"
+    },
     "bin":{
         "phpunit-watchr":"lib/phpunit-watchr.js"
+    },
+    "scripts": {
+        "test": "mocha test/ -u tdd"
     }
 }
