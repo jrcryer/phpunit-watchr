@@ -5,6 +5,8 @@ A [NodeJS](http://nodejs.org) app to watch directories and run [PHPUnit](http://
 
 [![Build Status](https://travis-ci.org/jrcryer/phpunit-watchr.png)](https://travis-ci.org/jrcryer/phpunit-watchr)
 
+*This project is no longer maintained.  Please see: https://github.com/SaschaGalley/grunt-phpunit to automate running your PHPUnit test runner.*
+
 Installation
 ------------
 The following command will install the application. Use `-g` to install as a global binary.
